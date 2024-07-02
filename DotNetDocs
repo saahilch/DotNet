@@ -119,6 +119,35 @@ Cosol.WriteLine(b);
 --/output/-- 10 10 
 
 
+Varibale Constant & Literal ---
 
+Variable - -
+A variable in C# is a named storage location in memory that holds a value of a particular data type.
+Variables are used to store and manipulate data during the execution of a program.
+They must be declared with a specific data type and can change their value during program execution.
+Variables are named storage locations whose values can change during program execution.
+
+int age; // Declaration of a variable named 'age' of type int
+age = 30; // Assigning a value to the 'age' variable
+
+
+Constant:
+
+A constant in C# is a value that cannot be altered during program execution.
+Constants are declared using the const keyword and must be initialized at the time of declaration.
+They provide a way to define values that remain unchanged throughout the program.
+Constants are named values that remain unchanged throughout the program and are declared using the const keyword.
+const double PI = 3.14; // Declaration of a constant named 'PI' of type double
+
+
+Literal:
+
+A literal in C# is a representation of a fixed value in source code.
+It directly represents a specific value (like a number, string, or boolean) and is not stored in a variable or altered during program execution.
+Literals are fixed values that directly appear in the source code and represent specific data
+
+int number = 10; // '10' is a literal representing the integer value 10
+string message = "Hello"; // '"Hello"' is a literal representing a string value "Hello"
+bool isTrue = true; // 'true' is a literal representing the boolean value true
 
 
