@@ -1,0 +1,62 @@
+What is DotNet.
+DotNet is open-source developer platform created by Microsoft. It is used for building a wide range of applications, from web and mobile applications to desktop and cloud services. 
+Here are some key features and components of .NET:
+
+Key Features
+Cross-Platform: .NET can be used to build applications that run on Windows, macOS, and Linux.
+
+Open Source: .NET is open-source, with its codebase available on GitHub.
+Unified Platform: Provides a single platform for building various types of applications, such as web, mobile, desktop, and cloud-based applications.
+Components of .NET
+
+.NET Core:
+A cross-platform framework for building modern, cloud-based, internet-connected applications. It is the foundation of .NET 5 and later versions, including .NET 6 and .NET 7.
+Supports development on Windows, macOS, and Linux.
+
+ASP.NET Core:
+A framework for building web applications and services, cloud-based applications, and APIs.
+Known for its high performance and ability to handle modern web development needs.
+
+Xamarin:
+Used for building mobile applications for iOS, Android, and other mobile platforms using C# and .NET.
+Provides tools and libraries specifically for mobile app development.
+
+Entity Framework Core:
+An object-relational mapper (ORM) that enables .NET developers to work with a database using .NET objects.
+Helps developers avoid most of the data-access code that they usually need to write.
+Windows Presentation Foundation (WPF) and Windows Forms:
+
+Used for building desktop applications for Windows.
+.NET Standard:
+A formal specification of .NET APIs that are intended to be available on all .NET implementations.
+Provides a uniform set of APIs for creating libraries that can be used across different .NET platforms, such as .NET Core, Xamarin, and .NET Framework.
+Development Tools
+
+Visual Studio: An integrated development environment (IDE) from Microsoft. It supports the development of .NET applications with tools for coding, debugging, and deployment.
+
+Visual Studio Code: A lightweight, cross-platform code editor that supports .NET development with various extensions.
+
+Usage Scenarios
+Web Applications: Using ASP.NET Core for high-performance, scalable web applications.
+
+Mobile Applications: Using Xamarin for cross-platform mobile applications.
+
+Desktop Applications: Using WPF and Windows Forms for Windows desktop applications.
+
+Cloud Services: Developing cloud-based applications and services that run on platforms like Microsoft Azure.
+
+Microservices: Building microservices and containerized applications using .NET Core.
+
+Basic Structuer Of DotNet Is - ->
+
+using System;
+namespace HelloWorld
+{
+  class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
