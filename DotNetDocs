@@ -87,3 +87,16 @@ Object o1="hellow"
 
 String Builder -- it is use to contain all the string type data similar but StringBuilder is mutable object
 we can change the value form the actual address.
+
+Class -- 
+it is use to define the characters of an object using data member & member function.it can contain a collection
+of elements.
+Structure - -
+it contain collectin of datatype but its value type is container of c#.
+
+Enumuratin - -
+It is called Constatnt Array mens we can define set of values using enum.
+
+Arrays --
+it can cotain elements in porpoer sequence. an array is use to store homoginious data elements.
+
