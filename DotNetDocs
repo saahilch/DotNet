@@ -103,4 +103,22 @@ it can cotain elements in porpoer sequence. an array is use to store homoginious
 Collection
 Date & Time...
 
+Boxing & Unboxing - -
+
+using System ;
+class Boxing{
+public static void main()
+{
+int a=10;
+object o;
+o=a; //boxing
+Consol.WriteLine(o);
+b=(int)o; // unboxing
+Cosol.WriteLine(b);
+}
+--/output/-- 10 10 
+
+
+
+
 
