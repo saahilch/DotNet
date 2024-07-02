@@ -75,3 +75,15 @@ CLE lode the the assembley.it uses JIT compilor it converts the IL code into nat
 
 Just In Time Compiler - it is use to convert MSIL code into machine code.MSIL code has .exe or dll code. & these code further coverted
 into machine code.
+
+Data Types - -
+Prmitive Data Tyeps
+Derived DataTypes -- 
+
+Object-- it contain all the type of element means the object is the common type in the dotnet.
+we can assign int,float,char,& string too.
+Object o=;
+Object o1="hellow"
+
+String Builder -- it is use to contain all the string type data similar but StringBuilder is mutable object
+we can change the value form the actual address.
