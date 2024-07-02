@@ -73,4 +73,5 @@ security ,exceptionn handeling,garbage collections.
 CLR is responsible for executing the code & provides services that make development process easiser.
 CLE lode the the assembley.it uses JIT compilor it converts the IL code into native machine code into Operating system.
 
-Just In Time Compiler - it is use to convert MSIL code into machine code
+Just In Time Compiler - it is use to convert MSIL code into machine code.MSIL code has .exe or dll code. & these code further coverted
+into machine code.
