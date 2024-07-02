@@ -60,3 +60,17 @@ namespace HelloWorld
         }
     }
 }
+
+To Save The File Use Extension .cs
+
+C# it is univarsal project builder.
+it is use to create mobile based,tablet based ,web-based projcts.
+we can run os based applications.
+
+CLR -- it is called as common langauge runtime.all the c# code is run under CLR.
+CLR manage all the execution of programs. it gives us more fetures such as memeory mamanagement
+security ,exceptionn handeling,garbage collections.
+CLR is responsible for executing the code & provides services that make development process easiser.
+
+CLE lode the the assembley.it uses JIT compilor it converts the IL code into native machine code into Operating system.
+
