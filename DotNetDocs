@@ -90,7 +90,7 @@ we can change the value form the actual address.
 
 Class -- 
 it is use to define the characters of an object using data member & member function.it can contain a collection
-of elements.
+of elements. it is referance type.
 Structure - -
 it contain collectin of datatype but its value type is container of c#.
 
@@ -99,4 +99,8 @@ It is called Constatnt Array mens we can define set of values using enum.
 
 Arrays --
 it can cotain elements in porpoer sequence. an array is use to store homoginious data elements.
+
+Collection
+Date & Time...
+
 
