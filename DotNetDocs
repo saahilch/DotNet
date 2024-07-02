@@ -218,6 +218,8 @@ int positiveValue = +count; // Unary plus operator (+)
 int negativeValue = -count; // Unary minus operator (-)
 bool isFalse = !true; // Logical negation operator (!).
 
+-----OOPS concept is same as JAVA-----
+
 
 
 
