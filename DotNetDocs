@@ -1,1 +1,227 @@
 
+What is DotNet.
+DotNet is open-source developer platform created by Microsoft. It is used for building a wide range of applications, from web and mobile applications to desktop and cloud services. 
+Here are some key features and components of .NET:
+
+Key Features
+Cross-Platform: .NET can be used to build applications that run on Windows, macOS, and Linux.
+
+Open Source: .NET is open-source, with its codebase available on GitHub.
+Unified Platform: Provides a single platform for building various types of applications, such as web, mobile, desktop, and cloud-based applications.
+Components of .NET
+
+.NET Core:
+A cross-platform framework for building modern, cloud-based, internet-connected applications. It is the foundation of .NET 5 and later versions, including .NET 6 and .NET 7.
+Supports development on Windows, macOS, and Linux.
+
+ASP.NET Core:
+A framework for building web applications and services, cloud-based applications, and APIs.
+Known for its high performance and ability to handle modern web development needs.
+
+Xamarin:
+Used for building mobile applications for iOS, Android, and other mobile platforms using C# and .NET.
+Provides tools and libraries specifically for mobile app development.
+
+Entity Framework Core:
+An object-relational mapper (ORM) that enables .NET developers to work with a database using .NET objects.
+Helps developers avoid most of the data-access code that they usually need to write.
+Windows Presentation Foundation (WPF) and Windows Forms:
+
+Used for building desktop applications for Windows.
+.NET Standard:
+A formal specification of .NET APIs that are intended to be available on all .NET implementations.
+Provides a uniform set of APIs for creating libraries that can be used across different .NET platforms, such as .NET Core, Xamarin, and .NET Framework.
+Development Tools
+
+Visual Studio: An integrated development environment (IDE) from Microsoft. It supports the development of .NET applications with tools for coding, debugging, and deployment.
+
+Visual Studio Code: A lightweight, cross-platform code editor that supports .NET development with various extensions.
+
+Usage Scenarios
+Web Applications: Using ASP.NET Core for high-performance, scalable web applications.
+
+Mobile Applications: Using Xamarin for cross-platform mobile applications.
+
+Desktop Applications: Using WPF and Windows Forms for Windows desktop applications.
+
+Cloud Services: Developing cloud-based applications and services that run on platforms like Microsoft Azure.
+
+Microservices: Building microservices and containerized applications using .NET Core.
+
+Basic Structuer Of DotNet Is - ->
+
+using System;
+namespace HelloWorld
+{
+  class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+
+To Save The File Use Extension .cs
+
+C# it is univarsal project builder.
+it is use to create mobile based,tablet based ,web-based projcts.
+we can run os based applications.
+
+CLR -- it is called as common langauge runtime.all the c# code is run under CLR.
+CLR manage all the execution of programs. it gives us more fetures such as memeory mamanagement
+security ,exceptionn handeling,garbage collections.
+CLR is responsible for executing the code & provides services that make development process easiser.
+CLE lode the the assembley.it uses JIT compilor it converts the IL code into native machine code into Operating system.
+
+Just In Time Compiler - it is use to convert MSIL code into machine code.MSIL code has .exe or dll code. & these code further coverted
+into machine code.
+
+Data Types - -
+Prmitive Data Tyeps
+Derived DataTypes -- 
+
+Object-- it contain all the type of element means the object is the common type in the dotnet.
+we can assign int,float,char,& string too.
+Object o=;
+Object o1="hellow"
+
+String Builder -- it is use to contain all the string type data similar but StringBuilder is mutable object
+we can change the value form the actual address.
+
+Class -- 
+it is use to define the characters of an object using data member & member function.it can contain a collection
+of elements. it is referance type.
+Structure - -
+it contain collectin of datatype but its value type is container of c#.
+
+Enumuratin - -
+It is called Constatnt Array mens we can define set of values using enum.
+
+Arrays --
+it can cotain elements in porpoer sequence. an array is use to store homoginious data elements.
+
+Collection
+Date & Time...
+
+Boxing & Unboxing - -
+
+using System ;
+class Boxing{
+public static void main()
+{
+int a=10;
+object o;
+o=a; //boxing
+Consol.WriteLine(o);
+b=(int)o; // unboxing
+Cosol.WriteLine(b);
+}
+--/output/-- 10 10 
+
+
+Varibale Constant & Literal ---
+
+Variable - -
+A variable in C# is a named storage location in memory that holds a value of a particular data type.
+Variables are used to store and manipulate data during the execution of a program.
+They must be declared with a specific data type and can change their value during program execution.
+Variables are named storage locations whose values can change during program execution.
+
+int age; // Declaration of a variable named 'age' of type int
+age = 30; // Assigning a value to the 'age' variable
+
+
+Constant:
+
+A constant in C# is a value that cannot be altered during program execution.
+Constants are declared using the const keyword and must be initialized at the time of declaration.
+They provide a way to define values that remain unchanged throughout the program.
+Constants are named values that remain unchanged throughout the program and are declared using the const keyword.
+const double PI = 3.14; // Declaration of a constant named 'PI' of type double
+
+
+Literal:
+
+A literal in C# is a representation of a fixed value in source code.
+It directly represents a specific value (like a number, string, or boolean) and is not stored in a variable or altered during program execution.
+Literals are fixed values that directly appear in the source code and represent specific data
+
+int number = 10; // '10' is a literal representing the integer value 10
+string message = "Hello"; // '"Hello"' is a literal representing a string value "Hello"
+bool isTrue = true; // 'true' is a literal representing the boolean value true
+
+
+Operators -- 
+operators are symbols or keywords that perform operations on operands. Operands can be variables, constants, literals, or expressions. 
+In C#, operators are categorized into several types based on their functionality. Here's an overview of the main types of operators in C#:
+
+
+1-Arithmetic Operators:
+
+Arithmetic operators perform basic arithmetic operations such as addition, subtraction, multiplication, division, and modulus (remainder)
+
+int a = 10;
+int b = 5;
+int sum = a + b; // Addition operator (+)
+int difference = a - b; // Subtraction operator (-)
+int product = a * b; // Multiplication operator (*)
+int quotient = a / b; // Division operator (/)
+int remainder = a % b; // Modulus operator (%)
+
+
+2-Relational Operators:
+
+Relational operators compare two operands and return a boolean result (true or false) based on the relationship between them.
+int x = 10;
+int y = 5;
+bool isEqual = (x == y); // Equality operator (==)
+bool isNotEqual = (x != y); // Inequality operator (!=)
+bool isGreater = (x > y); // Greater than operator (>)
+bool isLess = (x < y); // Less than operator (<)
+bool isGreaterOrEqual = (x >= y); // Greater than or equal to operator (>=)
+bool isLessOrEqual = (x <= y); // Less than or equal to operator (<=)
+
+3-Logical Operators:
+
+Logical operators perform logical operations on boolean operands and return a boolean result.
+bool p = true;
+bool q = false;
+bool result1 = p && q; // Logical AND operator (&&)
+bool result2 = p || q; // Logical OR operator (||)
+bool result3 = !p; // Logical NOT operator (!)
+
+
+4-Bitwise Operators:
+
+Bitwise operators perform bit-level operations on integer operands.
+They manipulate bits directly within binary representations of data.
+
+5-Assignment Operators:
+
+Assignment operators assign a value to a variable.
+They can also perform arithmetic or bitwise operations while assigning a value.
+int num = 10;
+num += 5; // Equivalent to: num = num + 5; (Addition assignment operator)
+num -= 3; // Equivalent to: num = num - 3; (Subtraction assignment operator)
+num *= 2; // Equivalent to: num = num * 2; (Multiplication assignment operator)
+num /= 4; // Equivalent to: num = num / 4; (Division assignment operator)
+num %= 3; // Equivalent to: num = num % 3; (Modulus assignment operator)
+
+6-Unary Operators:
+
+Unary operators operate on a single operand.
+They include increment (++), decrement (--), unary plus (+), unary minus (-), and logical negation (!).
+int count = 10;
+count++; // Increment operator (++)
+count--; // Decrement operator (--)
+int positiveValue = +count; // Unary plus operator (+)
+int negativeValue = -count; // Unary minus operator (-)
+bool isFalse = !true; // Logical negation operator (!).
+
+-----OOPS concept is same as JAVA-----
+Entity Framework In DotNet
+Why Entity Framework Used..?
+Entity Framework (EF) is an object-relational mapper that enables . NET developers to work with relational data using domain-specific objects. 
+It eliminates the need for most of the data-access code that developers usually need to write. Get it: Add this to your project and start taking advantage of this powerful O/R
+It is used to  create  standalone applications.
