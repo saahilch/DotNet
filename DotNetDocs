@@ -225,3 +225,11 @@ Why Entity Framework Used..?
 Entity Framework (EF) is an object-relational mapper that enables . NET developers to work with relational data using domain-specific objects. 
 It eliminates the need for most of the data-access code that developers usually need to write. Get it: Add this to your project and start taking advantage of this powerful O/R
 It is used to  create  standalone applications.
+
+
+MVC Archi...
+
+M-Model manages all the databases releted queries.
+V-View manages all the HTML,CSS & Bootstrap librires.
+C-Controller is the main page, it manages all the business logics.
+
